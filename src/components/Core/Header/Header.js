@@ -37,8 +37,8 @@ const Header = () => {
             }
             <div className="image">
               {state.user ? state.photoUrl ?
-                <Link to={`/auth/profile/${state.userId}`}><img src={state.photoUrl} alt="no picture" /></Link>
-                : <Link to={`/auth/profile/${state.userId}`}><img src={profilePicture} alt="no picture" /></Link>
+                <Link to={`/auth/profile/${state.userId}`}><img className='profile-picture' src={state.photoUrl} alt="no picture" /></Link>
+                : <Link to={`/auth/profile/${state.userId}`}><img className='profile-picture' src={profilePicture} alt="no picture" /></Link>
                 : ''
               }
             </div>
@@ -106,10 +106,12 @@ const Header = () => {
         align-items: center;
         margin-right: 1.5rem;
       }
+      .profile-picture {
+          border-radius: 50%;
+        }
       img {
-        width: 100%;
-        border-radius: 50%;
-      }
+          width: 100%;
+        }
       @media (min-width: 989px) {
          .header-central {
            font-size: 2rem;
