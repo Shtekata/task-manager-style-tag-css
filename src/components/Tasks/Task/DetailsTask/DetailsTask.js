@@ -52,7 +52,7 @@ const DetailsTask = ({match, location, history}) => {
                     <input className="button submit" type="button" value='Back' onClick={onClickHandler} />
                 </fieldset>
             </form>
-            <style jsx>{`
+            <style>{`
             .title {
                 margin: auto;
                 font-weight: bold;

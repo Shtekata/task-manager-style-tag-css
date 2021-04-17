@@ -8,7 +8,7 @@ const ContactUs = () => (
             <h4 className='contact-us-h4'>Telefon: +359 887 65 85 29</h4>
             <h2 className='contact-us-git'>I have other ready-made projects that you can view on my github profile at the following address: https://github.com/Shtekata</h2>
         </div>
-        <style jsx>{`
+        <style>{`
         .contact-us-h1 {
             text-align: center;
             color: #234465;

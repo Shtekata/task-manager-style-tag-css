@@ -39,7 +39,7 @@ const OldTasksList = () => {
                 </div>
             </div>
             <Aside onAsideItemClick={onAsideItemClickApp} labels={labels} />
-            <style jsx>{`
+            <style>{`
             .task-list {
                width: 100%;
             }

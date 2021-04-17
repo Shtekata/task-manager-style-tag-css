@@ -71,7 +71,7 @@ const Login = () => {
                     </div>
                 </fieldset>
             </form>
-            <style jsx>{`
+            <style>{`
         .login form, .register form, .create form {
             margin: 5rem auto;
         }

@@ -4,7 +4,7 @@ const KanbanBoard = () => {
     return (
         <div className='kanban-board'>
             <DragNDrop />
-            <style jsx>{`
+            <style>{`
             .kanban-board{
                 color: white;
                 background-color: thistle;

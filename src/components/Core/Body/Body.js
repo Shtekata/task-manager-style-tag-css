@@ -53,7 +53,7 @@ class Body extends Component{
                         <Route component={Error404} />
                     </Switch>
                 </main>
-                <style jsx>{`
+                <style>{`
                     .container{
                       display: flex;
                       justify-content: space-between;

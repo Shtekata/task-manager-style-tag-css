@@ -27,7 +27,7 @@ const Notification = ({ msg, type }) => {
             <div id="errorBox" className={classesE}>
                 <span>{msg}</span>
             </div>
-            <style jsx>{`
+            <style>{`
             .hidden{
                 display: none;
             }

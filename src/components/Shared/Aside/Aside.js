@@ -7,7 +7,7 @@ const Aside = ({ labels, onAsideItemClick }) => {
             {labels.map((x, i) =>
                 <NavLink key={i} to={`/${x[0]}`} className='aside-item' onClick={() => onAsideItemClick(x[1])}>{x[1]}</NavLink>
             )}
-            <style jsx>{`
+            <style>{`
             .aside{
                 display: flex;
                 flex-direction: column;

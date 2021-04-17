@@ -23,7 +23,7 @@ const OldTask = ({ task: x }) => (
                 <small>Executed on: </small> {`${x.executedOn.slice(0,10)} ${x.executedOn.slice(11,19)}`}
             </div>
         </div>
-        <style jsx>{`
+        <style>{`
             .task {
                 border: 2px solid #234465;
                 margin-bottom: 35px;

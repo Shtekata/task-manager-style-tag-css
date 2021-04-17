@@ -137,7 +137,7 @@ const DragNDrop = () => {
                 :
                 true
             }
-            <style jsx>{`
+            <style>{`
             .drag-and-drop{
                 padding: 1rem .5rem 0 .5rem;
                 display: grid;

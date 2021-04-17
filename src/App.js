@@ -14,7 +14,7 @@ function App() {
           <Footer />
         </CustomErrorBoundary>
       </Provider>
-      <style jsx>{`
+      <style>{`
         .site-wrapper{
           display: flex;
           flex-direction: column;

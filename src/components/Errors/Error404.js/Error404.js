@@ -315,7 +315,7 @@ const Error404 = ({history}) => {
         >
             <button className='error-button' onClick={()=>history.push('/')}>Maybe you came to the wrong place. Go back before it's too late! </button>
         </div>
-            <style jsx>{`
+            <style>{`
             .app{
                 min-height: 78vh;
                 display: flex;

@@ -5,7 +5,7 @@ const Message = ({ msg }) => {
     return (
         <Fragment>
             <p className='err-msg'>{msg}</p>
-            <style jsx>{`.err-msg{color: red;}`}</style>
+            <style>{`.err-msg{color: red;}`}</style>
         </Fragment>
     )
 };

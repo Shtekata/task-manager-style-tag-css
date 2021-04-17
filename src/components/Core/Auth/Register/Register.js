@@ -113,7 +113,7 @@ const Register = () => {
                     </div>
                 </fieldset>
             </form>
-            <style jsx>{`
+            <style>{`
             .register{
                 height: 100%;
                 display: flex;

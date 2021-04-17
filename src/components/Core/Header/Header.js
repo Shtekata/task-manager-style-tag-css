@@ -45,7 +45,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <style jsx>{`
+      <style>{`
       .navigation {
           width: 100%;
           min-height: 75px;

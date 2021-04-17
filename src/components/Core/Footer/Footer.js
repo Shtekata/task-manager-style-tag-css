@@ -5,7 +5,7 @@ const Footer = () => (
     <div className='footer-img'></div>
     <p className='footer-item footer-p'>Copyright &copy; 2021 Gehslandia Inc.</p>
     <Link to='/' className='footer-item'><img className='footer-img' src="/caveman.png" alt="caveman" /></Link>
-    <style jsx>{`
+    <style>{`
       .footer {
         display: flex;
         justify-content: space-between;

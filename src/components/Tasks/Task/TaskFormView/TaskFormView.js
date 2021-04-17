@@ -49,7 +49,7 @@ const TaskFormView = ({ type, task, titleMsg, descriptionMsg, solutionMsg, onSub
                     </div>
                 </fieldset>
             </form>
-            <style jsx>{`
+            <style>{`
             .create{
                 height: 100%;
                 display: flex;

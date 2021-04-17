@@ -203,7 +203,7 @@ const Profile = () => {
                     </Form>
                 )}
             </Formik>
-            <style jsx>{`
+            <style>{`
             .page {
                 display: flex;
                 align-items: center;
